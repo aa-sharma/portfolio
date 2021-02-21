@@ -32,7 +32,7 @@
   ======================================================= -->
 </head>
 
-<body id="page-top">
+<body id="page-top" style="background-color:white;">
 
   <!--/ Nav Star /-->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
@@ -50,7 +50,7 @@
             <a class="nav-link js-scroll active" href="home.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#">About</a>
+            <a class="nav-link js-scroll" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="projects.html">Projects</a>
@@ -89,7 +89,7 @@
 <br>
 <br>
 <div class ="padding">
-<div class="container">
+<div id = "about" class="container">
   <div class="row">
     <div class= "col-sm-6">
       <img src="img/aashna.jpeg" alt="aashna" style="width:450px;height:600px;">
@@ -106,13 +106,16 @@
           <div class="about-info">
             <p><span class="title-s">Name: </span> <span>Aashna Sharma</span></p>
             <p><span class="title-s">Year of Study: </span> <span>Third (3A)</span></p>
-            <p><span class="title-s">Linkedin: </span> <a href="https://www.linkedin.com/in/aashna-sharma-baa710193/">Aashna Sharma</a></p>
+            <p><span class="title-s" >LinkedIn: </span> <a class="text-info" href="https://www.linkedin.com/in/aashna-sharma-baa710193/ ">Aashna Sharma</a></p>
             <p><span class="title-s">Email: </span> <span>aashnasharma3@gmail.com</span></p>
             <p><span class="title-s">Phone: </span> <span>(613) 710-5998</span></p>
           </div>
         </div>
     </div>
   </div>
+  <br>
+  <br>
+  <br>
 </div>
 </div>
   </div>
@@ -127,21 +130,26 @@
 
 /-->
   <!--/ Section Contact-footer End /-->
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
 
-  <footer class="containter-fluid text-center">
+  <footer class="containter-fluid">
+    <div class="div-1">
     <div class="row">
 
       <div class="col-sm-4">
+        <br>
         <h3> Contact </h3>
         <br>
-        <p> Aashna Sharma </p>
-        <p> aashnasharma3@gmail.com </p>
-        <p> ashar181@uottawa.ca </p>
-
+        <p class="font-weight-light">Aashna Sharma</p>
+        <p class="font-weight-light">aashnasharma3@gmail.com</p>
+        <p class="font-weight-light">(613)710-5998</p>
       </div>
 
       <div class="col-sm-4">
+        <br>
         <h3> Connect </h3>
+        <br>
         <a href="https://www.linkedin.com/in/aashna-sharma-baa710193/" class="fa fa-linkedin"></a>
         <a href="https://www.google.com/" class="fa fa-google"></a>
         <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
@@ -149,14 +157,15 @@
       </div>
 
       <div class="col-sm-4">
-        <img src="img/Bootstrap.png" class="icon" alt="bootstrap logo">
+        <br>
+        <br>
+        <img src="img/uottawa.png" class="icon" alt="uOttawa logo" style="width:110px;height:85px;">
       </div>
-
+</div>
     </div>
   </footer>
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
+
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
