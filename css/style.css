@@ -481,26 +481,26 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #ffc800;
+  color: #000000;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #ffc800;
+  background-color: #000000;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #ffc800;
+  color: #000000;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #ffc800;
+  color: #000000;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #ffc800;
+  color: #000000;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -532,13 +532,13 @@ a:hover {
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-  background-color: #ffc800;
+  background-color: #000000;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .navbar-b .dropdown-menu .dropdown-item.active {
-  background-color: #ffc800;
+  background-color: #000000;
 }
 
 /*--/ Hamburger Navbar /--*/
