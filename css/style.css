@@ -17,6 +17,12 @@ body {
   color: #4e4e4e;
 }
 
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
 h1,
 h2,
 h4,
