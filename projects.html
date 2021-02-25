@@ -31,7 +31,42 @@
     padding-top: 1.563rem;
     padding-bottom: 1.563rem;
   }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #000;
+  }
+
+  /* [1] The container */
+  .img-hover-zoom {
+    height: 500px; /* [1.1] Set it as per your need */
+    overflow:  /* [1.2] Hide the overflowing of child elements */
+  }
+
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+    z-index:1000;
+    position:relative;
+  }
+
   </style>
+
+  <script>
+  $(".img-fluid").addClass("wow fadeIn z-depth-1-half");
+
+new WOW().init();
+  </script>
+
 
   <!-- =======================================================
     Theme Name: DevFolio
@@ -81,6 +116,75 @@
   <br>
   <br>
   <br>
+  <br>
+  <br>
+  <br>
+
+
+  <div class="container">
+    <div class="padding">
+    <div class="row">
+        <br>
+        <h1 class="display-4">CAN-RGX Design Challenge</h1>
+    </div>
+    <div class="row">
+      <small class="text-muted">Canadian Reduced Gravity Experiment Design Challange 2020</small>
+      <small class="text-muted"> - In Progress</small>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="padding">
+    <div class="col" style="margin-left:0px">
+
+    </div>
+</div>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="container">
+  <div class="padding">
+  <div class="row">
+    <div class="col" style="margin-left:0px">
+
+    </div>
+    <div class="col">
+
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container" style="margin-left:200px">
+  <div class="row">
+    <div class="col-sm img-hover-zoom">
+      <img src="img/canrgx_team.png" alt="phone" style="width:500px;height:265px;">
+    </div>
+    <div class="col-sm img-hover-zoom">
+      <img src="img/canrgx_electrical_setup.png" alt="phone" style="width:430px;height:265px;">
+    </div>
+    <div class="col-sm img-hover-zoom">
+      <img src="img/canrgx_mechanical_struct.png" alt="phone" style="width:450px;height:375px;">
+    </div>
+    <div class="col-sm img-hover-zoom">
+      <img src="img/procedure.png" alt="phone" style="width:500px;height:265px;">
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
   <footer class="containter-fluid">
     <div class="div-1">
